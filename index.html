@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anudeep Tippabathuni - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            padding: 30px 10vw;
+        }
+
+        section {
+            margin-top: 60px;
+        }
+
+        .date-tag {
+            top: 2px;
+            position: relative;
+            width: fit-content;
+        }
+
+        @media (max-width: 768px) {
+            .intro-container {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .intro-photo img {
+                width: 150px;
+            }
+            .date-tag {
+                position: relative;
+                left: 0;
+                margin-bottom: 5px;
+                display: inline-block;
+            }
+            .entry {
+                padding-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="intro-container">
+            <div class="intro-text">
+                <h1>Anudeep Tippabathuni</h1>
+                <p>
+                    I am a passionate Machine Learning and Full Stack enthusiast currently pursuing B.Tech at IIIT Sri City.
+                    I have worked on cutting-edge projects involving Sign Language Recognition and Cloud ETL pipelines.
+                    With real-time applications like IoT face recognition and a tech support chatbot, my work shows an obsession with problem solving and clean design.
+                </p>
+                <div class="links">
+                    <a href="mailto:anudeeptippabathuni@gmail.com">Email</a>
+                    <a href="https://www.linkedin.com/in/anudeep-tippabathuni-071b0124a/">LinkedIn</a>
+                    <a href="https://github.com/Anudeep007-hub">GitHub</a>
+                </div>
+            </div>
+            <div class="intro-photo">
+                <img src="profile.png" alt="Anudeep Tippabathuni">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>Experiences</h2>
+
+            <div class="entry">
+                <div class="date-tag">Mar – Apr 2025</div>
+                <h3>Jr ETL Developer Intern – BENDITO SOFT TECH</h3>
+                <p>
+                    Worked on extracting REST API data and processing it for cloud storage. Designed custom payloads using Azure triggers,
+                    ensuring seamless integration from source to Azure SQL Cloud. Created secure, real-time ETL flows for high-volume data.
+                </p>
+            </div>
+
+            <div class="entry">
+                <div class="date-tag">Jul – Aug 2024</div>
+                <h3>Machine Learning Intern – IDEAS-TIH, ISI Kolkata</h3>
+                <p>
+                    Captured dynamic sign language gestures using Kinect and MediaPipe. Generated labeled datasets using skeletal points,
+                    and trained a Transformer-based SPOTER model achieving 89% validation accuracy. Contributed to dataset engineering and model tuning.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>BTP Work</h2>
+            <div class="entry">
+                <h3>Indian Sign Language Recognition (Ongoing)</h3>
+                <p>
+                    Building a real-time dynamic sign recognition system using deep learning. The system classifies isolated signs and
+                    gradually evolves to recognize full sentences using Transformer architecture. Focus on real-time prediction accuracy,
+                    gesture sequence formation, and ISL grammar modeling. Future steps include deployment on mobile and sentence formation from gestures.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+
+            <div class="entry">
+                <div class="date-tag">2024</div>
+                <h3>Technical Support Chatbot</h3>
+                <p>
+                    Designed using Python, LSTM and NLP techniques to automate IT support queries. Achieved 92% accuracy in classifying
+                    user intent and delivered 87% relevant responses. Integrated Vector Space Models for efficient keyword mapping.
+                    <a href="https://github.com/Anudeep007-hub/ChatBot_LSTM">GitHub Repo</a>
+                </p>
+            </div>
+
+            <div class="entry">
+                <div class="date-tag">2024</div>
+                <h3>IoT-Based Intruder Detection System</h3>
+                <p>
+                    Developed using Flask, OpenCV, and Raspberry Pi. Integrated facial recognition with cloud logging via MongoDB Atlas.
+                    Admin web dashboard allowed tracking of access logs with real-time facial alerts. Demonstrated sensor integration with camera feeds.
+                    <a href="https://github.com/Anudeep007-hub/IOT_Project">GitHub Repo</a>
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Anudeep Tippabathuni</p>
+    </footer>
+</body>
+</html>

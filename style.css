@@ -1,0 +1,125 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f7f9fb;
+    color: #222;
+    padding: 40px;
+    line-height: 1.7;
+}
+
+/* Header Intro */
+header {
+    margin-bottom: 60px;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.intro-text {
+    flex: 1 1 60%;
+}
+
+.intro-text h1 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.intro-text p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.intro-photo img {
+    width: 200px;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Links */
+.links a {
+    color: #007BFF;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+main section {
+    margin-bottom: 70px;
+}
+
+main h2 {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    color: #007BFF;
+    border-left: 5px solid #007BFF;
+    padding-left: 10px;
+}
+
+/* Entry Blocks */
+.entry {
+    position: relative;
+    margin-bottom: 50px;
+    padding-left: 25px;
+}
+
+/* Timeline Dots only for specific items */
+.date-tag {
+    position: absolute;
+    left: -85px;
+    top: 0;
+    background-color: #007BFF;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.entry h3 {
+    font-size: 1.2rem;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.entry p {
+    font-size: 1rem;
+    color: #444;
+}
+
+.entry a {
+    color: #007BFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.entry a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 0.9rem;
+    color: #888;
+}
